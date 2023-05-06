@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto Chex</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <footer class="encabezado">
+
+        <img src="imagenes/logo one.png" class="alura">
+        <img src="imagenes/Alura logo.png" class="one">
+        <p class="copyright">Programa de Becas One Oracle Next Education</p>
+       
+    
+    </footer>
+</head>
+<body>
+    <div class="container">
+    <div class="ecriptar">
+    <textarea name="texto" 
+    class="texto" 
+    id="texto" 
+    cols="30" 
+    rows="10" 
+    placeholder="Ingrese el texto aqui">
+</textarea>
+    <div class="terminos">
+        <p>Favor de ingresar solo letras minusculas</p>
+   </div>
+   <div class="botones">
+<button class="btn-encriptar" type="button" onclick="encriptar()">
+    Encriptar
+</button>
+<input type="button"
+class="btn-desencriptar"
+value="Desencriptar"
+onclick="desencriptar()"
+/>
+   </div>
+ </div>
+ <div class="encriptado">
+    <img src="imagenes/inspector 1.png" alt="" id="muñeco">
+    <div class="mensaje-encriptado" id="mensaje-encriptado">
+        <h2 id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
+        <p>Ingrese el texto que desea encriptar o desencritar</p>
+<!--<textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea> -->
+    </div>
+ </div>
+ </div>
+ <footer>
+
+    <img src="imagenes/ed.jpg" class="ed">
+    <p class="copyright">&copy Derechos Reservados 2023</p>
+    <p class="información1">Nombre: Edgar Geovanny Chex García</p>
+    <p class="información2">Estudiante: De Ingeniería en Sistemas Computacionales</p>
+    <p class="información3">Programa de Becas de ONE Oracle Next Education 2023</p>
+
+</footer>
+</body>
+<script src="index2.js"></script>
+</html>
